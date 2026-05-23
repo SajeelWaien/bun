@@ -18,5 +18,5 @@ Bun.serve({
     return new Response("404 Not Found", { status: 404 });
   },
   hostname: "0.0.0.0",
-  port: 3009,
+  port: 443,
 });
