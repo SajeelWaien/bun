@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run server",
+      "type": "shell",
+      "command": "bun",
+      "args": ["server.ts"],
+      "inAgents": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Build TypeScript",
+      "type": "shell",
+      "command": "bun",
+      "args": ["build", "server.ts"],
+      "inAgents": true,
+      "problemMatcher": []
+    }
+  ]
+}
